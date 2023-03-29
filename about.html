@@ -5,41 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cb3157891f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+
 
     <title>Home Page</title>
 </head>
 <body>
-  <header>
-   <section>
-    <img src="./img/todolistimg.png"/>
-   </section>
-   <section>
-    <ul>
-        <li>Home</li>
-        <li><a href="./about.html">About</a></li>
-        <li>Contact</li>
-    </ul>
-   </section>
-  </header> 
+  <header >
+    <section>
+     <img src="./img/todolistimg.png" id="logo"/>
+    </section>
+    <section>
+     <ul id="nav">
+         <li><a href="./index.html">Home</a></li>
+         <li><a href="./about.html">About</a></li>
+         <li>Contact</li>
+     </ul>
+    </section>
+   </header> 
     
 <main>
-  <section>
-    <label for="1">description </label>
-    <label id="1">Al' Abusalem</label> <br>
+  <section >
+    <section id="description">
     <img src="./img/employeeavatar.png" id="2"/> <br>
+<section id="details">
+    <label id="1">Al' Abusalem</label> <br>
     
-    <label for="2">Name</label>
-    <p id="2"> Im Al'a abusalem computer netowrk engineer and now i'm learning html</p>
+    <p > Im Al'a abusalem computer netowrk engineer and now i'm learning html</p>
   </section>
-  <section>
-    <form>
-        <label for="f1">Name</label>
-        <input type="text" id="f1">
-        <label for="f2">Email</label>
-        <input type="text" id="f2">
+</section>
+  <section >
+    <form id="form">
+        
+        <input type="text"  placeholder="Name">
+     
+        <input type="text" placeholder="Email">
 
-        <label for="f3">Messge</label>
-        <input type="text" id="f3">
+        <input type="text" placeholder="leave a msg">
 
           <button>Submit</button>
 
@@ -47,19 +51,19 @@
   </section>
 </main>
 <footer>
- <section>
- <section>
-    <i class="fa-solid fa-phone-rotary"></i>
-    <p> 0799999999 </p>
-</section>
-    <section>
-        <i class="fa-sharp fa-solid fa-envelope"></i>
-        <p>contact@todolist.com</p>
-    </section>
-    
-    <i class="fa-sharp fa-solid fa-location-dot"></i>
-    <p>&copy; CopyRight</p>
+ 
+  <section>
+     <i class="fa-solid fa-phone-rotary"></i>
+     <p> 0799999999 </p>
  </section>
-</footer>
+     <section>
+         <i class="fa-sharp fa-solid fa-envelope"></i>
+         <p>contact@todolist.com</p>
+     </section>
+     <section>
+     <i class="fa-sharp fa-solid fa-location-dot"></i>
+     <p>&copy; CopyRight</p>
+ </section>
+ </footer>
 </body>
 </html>

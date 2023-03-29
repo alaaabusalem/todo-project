@@ -1,0 +1,27 @@
+main{
+    margin-top: 70px;
+    
+
+}
+
+#description{
+    display: flex;
+    
+}
+#description img{
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+#details label, p{
+    padding: 30px;
+margin-left: 100px;
+    font-size: 20;
+    font-weight: bolder;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
