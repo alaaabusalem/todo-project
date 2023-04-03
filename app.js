@@ -1,5 +1,5 @@
-
-let name=prompt("Please Enter Your Name");
+'use strict'
+let myName=prompt("Please Enter Your Name");
 let gender=prompt("Enter Your gender");
 gender=gender.toUpperCase();
 if (gender !== 'MALE' && gender !=='FEMALE'){
@@ -11,10 +11,13 @@ let age=prompt("Please Enter Your age");
 if(age<= 0){
     age=prompt("Your age is less than or equall Zero!! Enter your correct age");
 }
+let showWelcomingMsg=confirm('Do you want to show a welcoming message?');
+if(showWelcomingMsg){
 let A;
-if(gender == 'Male'){
+if(gender == 'MALE'){
     A='Mr'
-} else{A='Ms'}
+} else(gender=='FEMALE')
+{A='Ms'}
 
 
-confirm(`Hello ${A} ${name} your age is ${age} confirm to skip this messge`);
+confirm(`Hello ${A} ${myName} your age is ${age} confirm to skip this messge`);}
