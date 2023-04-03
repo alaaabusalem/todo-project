@@ -2,10 +2,14 @@
 let myName=prompt("Please Enter Your Name");
 let gender=prompt("Enter Your gender");
 gender=gender.toUpperCase();
-if (gender !== 'MALE' && gender !=='FEMALE'){
-    gender=prompt("Please Enter a correct gender MALE or FEMALE");
-    gender=gender.toUpperCase();
 
+for (var i = 0; i < Infinity; i++) {
+    if (gender !== 'MALE' && gender !=='FEMALE'){
+        gender=prompt("Please Enter a correct gender MALE or FEMALE");
+        gender=gender.toUpperCase();
+    
+    }
+ else {break;}
 }
 let age=prompt("Please Enter Your age");
 if(age<= 0){
@@ -16,8 +20,8 @@ if(showWelcomingMsg){
 let A;
 if(gender == 'MALE'){
     A='Mr'
-} else(gender=='FEMALE')
+} else if(gender=='FEMALE')
 {A='Ms'}
 
 
-confirm(`Hello ${A} ${myName} your age is ${age} confirm to skip this messge`);}
+alert(`Hello ${A} ${myName} your age is ${age} confirm to skip this messge`);}
