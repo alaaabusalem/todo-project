@@ -48,6 +48,3 @@ function checkAnswer(answer){
 }
 console.log(answerArray);
 
-
-
-}
