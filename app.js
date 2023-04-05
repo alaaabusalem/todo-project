@@ -23,6 +23,7 @@ if(gender == 'MALE'){
 } else if(gender=='FEMALE')
 {alert(`Hello Ms ${myName} your age is ${age} confirm to skip this messge`);}
 else {alert(`Hello ${myName} your Gender is undefind and your age is ${age} confirm to skip this messge`);}
+
 }
 
                            ////// LAB 06 ////
@@ -46,3 +47,7 @@ function checkAnswer(answer){
      else {return (answer.toUpperCase());}
 }
 console.log(answerArray);
+
+
+
+}
