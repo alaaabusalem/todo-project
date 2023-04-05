@@ -46,8 +46,12 @@ function checkAnswer(answer){
     }
      else {return (answer.toUpperCase());}
 }
-console.log(answerArray);
-
+function printArray(arry){
+    for(let i=0;i<arry.length;i++){
+        console.log(arry[i]);
+    }
+}
+printArray(answerArray);
 
 
 
